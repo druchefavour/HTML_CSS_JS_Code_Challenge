@@ -4,8 +4,8 @@ var React = require("react");
 // Here we include all of the sub-components
 var Child = require("./Child");
 
-// This is the main component. It includes the banner and button.
-// Whenever you click the button it will communicate the click event to all other sub components.
+// This is the main component. It includes the logo.
+// Whenever an event takes place it will communicate the event to all other sub components.
 var Parent = React.createClass({
 
   // Here we set a generic state associated with the number of clicks

@@ -23,8 +23,8 @@ var GrandChild = React.createClass({
      <div className="panel-body text-center">
 
           {/*
-            This component will multiply 4 with it's parent's number on (this.props.number),
-            add, the result to it's own number on (this.state.clicks), and then display the result in the <h1> tag
+            This component will annex it's parent's text on (this.props.text),
+            add, the result to it's own text on (this.state.text), and then display the result in the <h1> tag
           */}
           <h1>{this.props.text}</h1>
 

@@ -40,7 +40,7 @@ var Child = React.createClass({
 
           {/*
             This component will then render the GrandChild component. It will give GrandChild a prop
-            called "text" which will be determined by annexing it's parent's textx on (this.propos.texts),
+            called "text" which will be determined by annexing it's parent's texts on (this.propos.texts),
             and then annexing it's own text (this.state.text)
           */}
           <GrandChild text={this.props.text} />
