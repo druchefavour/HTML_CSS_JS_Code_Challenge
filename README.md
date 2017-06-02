@@ -93,7 +93,8 @@ In separate files, break down the existing navigation menu into a few skeleton/P
 * Step 3 - Write index.html file
   * In the body of index.html
    * Create an empty div with id=app 
-   *Include javascript file created using webpack.config(call it bundle.js)
+   * Include javascript file created using webpack.config(call it bundle.js)
+   * Include the CSS files used for the vanilla html exercise
 * Step 4 - Run npm (yarn) init to create package.json file
 * Step 5 - Run npm (yarn) install to install all our dependencies
 * Step 6 - Write app.js 
@@ -106,3 +107,4 @@ In separate files, break down the existing navigation menu into a few skeleton/P
 * Step 7 - Install webpack-dev-server using npm install -s webpack-dev-server (this will make the files reload automatically)
 * Step 8 - run webpackserver
 * Step 9 - view the rendered file at localhost:8080 in the browser
+* Step 10 - Create the components and save them under components in the app folder. There are four components (Parent.JSX, Child.JSX, CrandChild.JSX and GreatGrandChild.JSX  )
