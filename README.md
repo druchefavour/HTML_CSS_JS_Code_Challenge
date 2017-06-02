@@ -76,6 +76,17 @@ A gridded responsive solution has been created.
 
 # PART 2 REACT
 
+The same part of this exercise takes the final solution in Part 1) and breaks it down into a few React components. The components used in the app are:
+
+Parents.JSX - Takes care of the logo
+Child.JSX - Takes care of an icon, Heading 1/ Navlinks and More Links
+GrandChild.JSX - Takes care of an icon, LONG Heading 1/ Navlinks
+GreatGrandChild.JSX - Takes care of an icon, 3rd Heading 1/ Navlinks
+
+The thought process are explained in the code comments and a summary presented in this file
+
+In separate files, break down the existing navigation menu into a few skeleton/Proof of concept React components
+
 * Step 1 - Install Babel Library - Babel is a great tool for transpiling React Code (JSX). It also transpiles ES6 code
 
 * Step 2 - Create webpack.config file
@@ -85,7 +96,7 @@ A gridded responsive solution has been created.
    *Include javascript file created using webpack.config(call it bundle.js)
 * Step 4 - Run npm (yarn) init to create package.json file
 * Step 5 - Run npm (yarn) install to install all our dependencies
-* Step 6 - Write main.js 
+* Step 6 - Write app.js 
   * import React
   * import ReactDom - ReactDom is our active webpage- we will render our app to it. In React, everything in the body tag in index.html is a component
   * Create a layout class that would render the react components
