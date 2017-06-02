@@ -1,32 +1,61 @@
 .mainRow {
-	width: 100%;
-	margin: 0 auto;
-	padding: 15px;
-}
-.subRow {
-	width: 80%;
-	float:left;
+width : 100%;
+margin : 0 auto;
+padding : 15px;
 }
 
+.subRow {
+width : 80%;
+float : left;
+}
+
+.logoRow {
+height : 110px;
+float : left;
+}
 .logoBlk {
-	width: 25%;
-	float:left;
-	margin-bottom: 15px;
+width : 70px;
+height : 80px;
+float : left;
+margin-left : 80px;
+padding : 20px;
+display : inline;
+border : 1px solid black;
+}
+
+.iconBlk {
+width : 60px;
+height : 60px;
+margin-right : 10px;
+margin-top : 20px;
 }
 
 .titleBlk {
-	width: 25%;
-	float:left;
-	margin-bottom: 15px;
+width : 20%;
+float : left;
+margin : 10px;
+text-align : center;
+padding: 5px;
 }
 
 .navBlk {
-	width: 25%;
-	float:left;
-	margin-bottom: 15px;
+width : 20%;
+float : left;
+margin-right : 5px;
+margin-left : 20px;
 }
-
+.navList {
+text-align : center;
+list-style-type : none;
+}
 .moreLks {
-	width: 20%;
-	float:left;
+width : 15%;
+height : 300px;
+float : left;
+border-left : 1px solid black;
+padding-left : 20px;
+list-style-type : none;
+}
+.links {
+list-style-type : none;
 }

@@ -35,3 +35,29 @@ Here I will structure the content created in a usable way using CSS3
  * Use Margin to create spaces between the rows
 
  We now have a simple layout that closely resembles the mockup
+
+## More CSS
+
+Here we implement more styling to reproduce the mockup
+
+1. First we use border and box-sizing to create borders for our logo and icons
+2. We use margins and paddings in CSS to position the boxes properly
+3. We use <hr> tag to underline the titles and headers
+4. We create a border line using (border-left syntx in css) to create a left side border for the More link section
+5. Use list-style-type:none to remove the bullets in the Navlink Lists. Align the list text to the center.
+
+The mockup has been reproduced.
+
+6. Validate index.html using https://validator.w3.org 
+
+7. Validate styles.css using hhttp://www.css-validator.org 
+
+
+
+## Gridding
+I will use RWD grid view to redesign the webpage. It makes it easier to place all the elements in the page. 
+
+## Responsive Grid View
+Step 1 - All the HTML elements would have the box-sizing property set to border box
+Step-2 - Create a responsive grid-view with 12 columns, to have more control over the webpage (the percentage for one column is 100%/12 columns = 8.33%), we then make a class of each of the columns, class="col-" and a number defining how many colums the section should span
+

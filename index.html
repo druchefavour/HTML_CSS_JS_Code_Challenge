@@ -2,64 +2,73 @@
 <html>
 <head>
   <meta charset="utf-8">
-	<title></title>
+	<title>HTML-CSS Website</title>
 	<!-- Insert css style sheet-->
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
 <body>
-  <article>
+  <!--article>
   	<header></header>
-  	 <article>
+  	 <article-->
   	 	<section>
   	 	  <!-- Create the first row (with class name mainRow) containing the first block of four sections (with class name subRow) and one block for more links (with class name moreLks)-->
   	 	  <div class="mainRow">
   	 	    <div class = "subRow">
-  	 	      <!-- Create three rows containing logo/Icon, Title/Headlines, Article/ Navlinks-->
-  	 	      <!-- This row contains the logo and the icons-->
-  	 	      <div class="logoRow">
-  	 	      	<div class="logoBlk">Logo Variant</div>
-  	 	        <div class="logoBlk">icon</div>
-  	 	        <div class="logoBlk">icon</div>
-  	 	        <div class="logoBlk">icon</div>
-  	 	      </div>
-  	 	      <!-- This row contains the titles and the headlines-->
+  	 	       <!-- Create three rows containing logo/Icon, Title/Headlines, Article/ Navlinks-->
+  	 	       <!-- This row contains the logo and the icons-->
+  	 	       <div class="logoRow">
+  	 	      	 <div class="logoBlk col-1">Logo Variant</div>
+  	 	      	 <div class="logoBlk  iconBlk">icon</div>
+  	 	         <div class="logoBlk  iconBlk">icon</div>
+  	 	         <div class="logoBlk  iconBlk">icon</div>
+  	 	       </div>
   	 	      <div class="titleRow">
-  	 	      	<div class="titleBlk">WEBSITE NAME</div>
-  	 	      	<div class="titleBlk">HEADLINE #1</div>
-  	 	      	<div class="titleBlk">LONG HEADLINE</div>
-  	 	      	<div class="titleBlk">3rd HEADLINE</div>
+  	 	      	<div class="titleBlk"><h3>WEBSITE NAME</h3><hr></div>
+  	 	      	<div class="titleBlk"><h3>HEADLINE #1</h3><hr></div>
+  	 	        <div class="titleBlk"><h3>LONG HEADLINE</h3><hr></div>
+  	 	        <div class="titleBlk"><h3>3rd HEADLINE</h3><hr></div>
   	 	      </div>
-  	 	      <!-- This row contains the article and navlinks-->
-  	 	      <div class="navRow">
-  	 	        <div class="navBlk">Suspendisse non ligula scelerisque, aliquet felis nec, molestie justpo. Nullam nec ligula velit. Etiam aliquam porttitor malesuada</div>
-  	 	      	  <div class="navBlk">
-  	 	      	   	<li><a href="index.html">first nav link<a></li>
-  	 	      	  	<li><a href="index.html">second nav link<a></li>
-  	 	      	  	<li><a href="index.html">third link<a></li>
-  	 	      	  </div>
-  	 	      	  <div class="navBlk">
-  	 	      	  	<li><a href="index.html">first nav link<a></li>
-  	 	      	  	<li><a href="index.html">second nav link<a></li>
-  	 	      	  	<li><a href="index.html">third link<a></li>
-  	 	      	  </div>
-  	 	      	  <div class="navBlk">
-  	 	      	  	<li><a href="index.html">first nav link<a></li>
-  	 	      	  	<li><a href="index.html">second nav link<a></li>
-  	 	      	  	<li><a href="index.html">third link<a></li>
-  	 	      	  </div>
-  	 	        </div> 
+    	 	  <div class="navRow">
+  	 	      	<div class="navBlk">
+  	 	      		<p>Suspendisse non ligula scelerisque, aliquet felis nec, molestie justpo. Nullam nec ligula velit. Etiam aliquam porttitor malesuada</p>
+  	 	        </div>
+  	 	        <div class="navBlk">
+  	 	      	  <ul class="navList">
+  	 	      	  	<li><a href="index.html"><p>first nav link</p></a></li>
+  	 	      	  	 <li><a href="index.html"><p>second nav link</p></a></li>
+  	 	      	  	 <li><a href="index.html"><p>third link</p></a></li>
+  	 	      	  </ul>
+  	 	        </div>
+  	 	        <div class="navBlk">
+  	 	      	  <ul class="navList">
+  	 	      	  	<li><a href="index.html"><p>first nav link</p></a></li>
+  	 	      	  	 <li><a href="index.html"><p>second nav link</p></a></li>
+  	 	      	  	 <li><a href="index.html"><p>third link</p></a></li>
+  	 	      	  </ul>
+  	 	       </div>
+  	 	       <div class="navBlk">
+  	 	        <ul class="navList">
+  	 	      	   <li><a href="index.html"><p>first nav link</p></a></li>
+  	 	      	   <li><a href="index.html"><p>second nav link</p></a></li>
+  	 	      	   <li><a href="index.html"><p>third link</p></a></li>
+  	 	      	</ul>
+  	 	       </div>
+  	 	     </div>
   	 	    </div>
-  	 	    <div class = "moreLks">
-  	 	      <h1>More Links</h1>
-  	 	      <li><a href="index.html">FIRST NAV LINK<a></li>
-  	 	      <li><a href="index.html">SECOND NAV LINK<a></li>
-  	 	      <li><a href="index.html">THIRD LINK<a></li>
-  	 	      <li><a href="index.html">FOURTH<a></li>
+  	 	  <!--=============================================-->
+ 	     <div class = "moreLks">
+  	 	      <h2>More Links</h2>
+  	 	      <ul class = "links">
+  	 	        <li><a href="index.html">FIRST NAV LINK</a></li>
+  	 	        <li><a href="index.html">SECOND NAV LINK</a></li>
+  	 	        <li><a href="index.html">THIRD LINK</a></li>
+  	 	        <li><a href="index.html">FOURTH</a></li>
+  	 	      </ul>
   	 	    </div>
   	 	  </div>
-  	 	</section>
-  	 </article>
+  	 </section>
+  	 <!--/article>
   	 <footer></footer>
-  </article>
+  </article-->
 </body>
 </html>
