@@ -1,4 +1,32 @@
-.section1 {
-	float:left;
+.mainRow {
+	width: 100%;
+	margin: 0 auto;
 	padding: 15px;
+}
+.subRow {
+	width: 80%;
+	float:left;
+}
+
+.logoBlk {
+	width: 25%;
+	float:left;
+	margin-bottom: 15px;
+}
+
+.titleBlk {
+	width: 25%;
+	float:left;
+	margin-bottom: 15px;
+}
+
+.navBlk {
+	width: 25%;
+	float:left;
+	margin-bottom: 15px;
+}
+
+.moreLks {
+	width: 20%;
+	float:left;
 }

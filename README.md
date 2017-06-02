@@ -24,6 +24,14 @@ Here I will structure the content created in a usable way using CSS3
 1. Create an asset folder and:
  * Create an image subfolder that will hold all the images produced in this exercise
  * Create a CSS subfolder and a file 'styles.css' and save it in the assets folder the css sheet will contain all the styles used to manipulate the static page
+ * insert style.css as an external style sheet in the html file
 
+2. Create the first row (with class name mainRow) containing the first block of four sections (with class name subRow) and one block for more links (with class name moreLks)
+ * Use the css to divide mainRow into two blocks (with class names subRow and moreLks and float them to left)
+ * Within the class subRow class, create 3 rows consisting of the logo/icon secrion, the Title/headline section, and the Article/Navlink section
 
-3. Create the Navlinks using unordered and ordered listing
+ * Use the css to divide each of the subRows into four blocks and float them to left
+
+ * Use Margin to create spaces between the rows
+
+ We now have a simple layout that closely resembles the mockup
