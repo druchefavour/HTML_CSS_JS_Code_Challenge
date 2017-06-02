@@ -33,17 +33,17 @@ var Child = React.createClass({
         <div className="panel-body text-center">
 
           {/*
-            This component recieves a clicks variable as a prop from it's parent.
-            See line 64 of Parent.jsx
+            This component recieves a text variable as a prop from it's parent.
+
           */}
           <h1>{this.props.text}</h1>
 
           {/*
             This component will then render the GrandChild component. It will give GrandChild a prop
-            called "number" which will be calculated by mutiplying it's parent's clicks on (this.props.clicks) by 2,
-            and then adding it's own number (this.state.number)
+            called "text" which will be determined by annexing it's parent's textx on (this.propos.texts),
+            and then annexing it's own text (this.state.text)
           */}
-          <GrandChild number={this.props.text} />
+          <GrandChild text={this.props.text} />
 
         </div>
         </div>
