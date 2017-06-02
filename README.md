@@ -52,7 +52,10 @@ The mockup has been reproduced.
 
 7. Validate styles.css using hhttp://www.css-validator.org 
 
-
+PART 1 BONUS
+1. Keep index.html and save another file (index_grid.html) for gridding
+2. In index_grid.html include <meta> viewport element: This gives the browser instructions on how to control the page's dimensions and scaling.
+3. Create style_grid.css and save it in the css directory. Include the file in index_grid.html as an external style sheet.
 
 ## Gridding
 I will use RWD grid view to redesign the webpage. It makes it easier to place all the elements in the page. 
@@ -60,4 +63,9 @@ I will use RWD grid view to redesign the webpage. It makes it easier to place al
 ## Responsive Grid View
 Step 1 - All the HTML elements would have the box-sizing property set to border box
 Step-2 - Create a responsive grid-view with 12 columns, to have more control over the webpage (the percentage for one column is 100%/12 columns = 8.33%), we then make a class of each of the columns, class="col-" and a number defining how many colums the section should span
+Step 3:  All these columns should be floating to the left, and have a padding of 5px
+Step 4: Wrap each row in a <div>. The number of columns inside a row should always add up to 12
+Step 5: Add a style that clears the flow to prevent the columns inside a row to be taken out of the flow of the page, and other elements being placed as if the columns do not exist. 
+
+A gridded responsive solution has been created.
 
