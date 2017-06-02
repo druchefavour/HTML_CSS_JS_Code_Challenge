@@ -69,3 +69,7 @@ Step 5: Add a style that clears the flow to prevent the columns inside a row to 
 
 A gridded responsive solution has been created.
 
+## Adding color and visual style
+
+* Set the body background to rgba(203, 111, 21)
+* Configure to use Iphone 7 (Apple iPhone 7	Physical width: 750, Physical Height:1334, CSS-Width:375, CSS-Height:667, Pixel Ratio: 2, Physical ppi:326, CSS-ppi: 192)
