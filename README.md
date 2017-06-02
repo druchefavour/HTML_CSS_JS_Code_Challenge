@@ -1,12 +1,12 @@
 # PART 1 HTML, CSS & JavaScript Code Challenge
 
-In this challenge, I will be implementing a simple navigation menu using HTML5 and CSS3
+In this challenge, I will be implementing a simple navigation menu using HTML5 and CSS3. The git repsitory is located in [here](https://github.com/druchefavour/HTML_CSS_JS_Code_Challenge/tree/master/Vanila_html)
 
 ## Create a Git Repository
 * Create a new repository called 'HTML_CSS_JS_Code_Challenge'
 * Clone the the repository into my Local Machine
 * Work on the Local Machine;
-* Use git add -A, git commit - m "commit ****" and git push to add, commit and push created files to git. 
+* Use git add -A, git commit - m "commit file" and git push to add, commit and push created files to git. 
 
 ## Create HTML file (using HTML5)
 * Create a file called 'index html'
@@ -19,12 +19,17 @@ I will now lay the groundwork for my markup order: Ensuring that the design will
 3. A Section containing an article and Navlinks
 4. A side Section containing More Links
 
+The groundwork layout can be viewed ![here](https://github.com/druchefavour/HTML_CSS_JS_Code_Challenge/blob/master/Vanila_html/assets/images/content.PNG)
+
 ### Flushing out the Layout
 Here I will structure the content created in a usable way using CSS3
 1. Create an asset folder and:
  * Create an image subfolder that will hold all the images produced in this exercise
  * Create a CSS subfolder and a file 'styles.css' and save it in the assets folder the css sheet will contain all the styles used to manipulate the static page
  * insert style.css as an external style sheet in the html file
+
+
+
 
 2. Create the first row (with class name mainRow) containing the first block of four sections (with class name subRow) and one block for more links (with class name moreLks)
  * Use the css to divide mainRow into two blocks (with class names subRow and moreLks and float them to left)
@@ -35,6 +40,8 @@ Here I will structure the content created in a usable way using CSS3
  * Use Margin to create spaces between the rows
 
  We now have a simple layout that closely resembles the mockup
+
+ The layout can be viewed ![here](https://github.com/druchefavour/HTML_CSS_JS_Code_Challenge/blob/master/Vanila_html/assets/images/mockup_recreated.PNG)
 
 ## More CSS
 
@@ -83,6 +90,8 @@ Child.JSX - Takes care of an icon, Heading 1/ Navlinks and More Links
 GrandChild.JSX - Takes care of an icon, LONG Heading 1/ Navlinks
 GreatGrandChild.JSX - Takes care of an icon, 3rd Heading 1/ Navlinks
 
+The git repsitory is located in [here](https://github.com/druchefavour/HTML_CSS_JS_Code_Challenge/tree/master/React)
+
 The thought process are explained in the code comments and a summary presented in this file
 
 In separate files, break down the existing navigation menu into a few skeleton/Proof of concept React components
@@ -117,4 +126,4 @@ In separate files, break down the existing navigation menu into a few skeleton/P
     * The procedure for creating the components are similar except that in the Parent.JSX, the initial state was declared while in the children the props were defined to enable them inherit from their ancestors. 
      
 
-  A mockup of the rendered html is shown [here](https://github.com/druchefavour/HTML_CSS_JS_Code_Challenge/blob/master/React/public/assets/images/react.PNG)
+  A mockup of the rendered html is shown ![here](https://github.com/druchefavour/HTML_CSS_JS_Code_Challenge/blob/master/React/public/assets/images/react.PNG)
