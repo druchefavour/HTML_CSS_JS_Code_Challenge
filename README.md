@@ -73,3 +73,25 @@ A gridded responsive solution has been created.
 
 * Set the body background to rgba(203, 111, 21)
 * Configure to use Iphone 7 (Apple iPhone 7	Physical width: 750, Physical Height:1334, CSS-Width:375, CSS-Height:667, Pixel Ratio: 2, Physical ppi:326, CSS-ppi: 192)
+
+# PART 2 REACT
+
+* Step 1 - Install Babel Library - Babel is a great tool for transpiling React Code (JSX). It also transpiles ES6 code
+
+* Step 2 - Create webpack.config file
+* Step 3 - Write index.html file
+  * In the body of index.html
+   * Create an empty div with id=app 
+   *Include javascript file created using webpack.config(call it bundle.js)
+* Step 4 - Run npm (yarn) init to create package.json file
+* Step 5 - Run npm (yarn) install to install all our dependencies
+* Step 6 - Write main.js 
+  * import React
+  * import ReactDom - ReactDom is our active webpage- we will render our app to it. In React, everything in the body tag in index.html is a component
+  * Create a layout class that would render the react components
+  * Inside the class, use the render method to produce the output
+  * Get the react element in the index.html
+* Step 6 - Run webpack
+* Step 7 - Install webpack-dev-server using npm install -s webpack-dev-server (this will make the files reload automatically)
+* Step 8 - run webpackserver
+* Step 9 - view the rendered file at localhost:8080 in the browser
