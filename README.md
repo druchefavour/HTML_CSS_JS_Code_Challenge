@@ -109,10 +109,12 @@ In separate files, break down the existing navigation menu into a few skeleton/P
 * Step 9 - view the rendered file at localhost:8080 in the browser
 * Step 10 - Create the components and save them under components in the app folder. There are four components (Parent.JSX, Child.JSX, CrandChild.JSX and GreatGrandChild.JSX)
   * The four rows were divided into components
-    ** The first row takes the logo and it is the Parent component. Its text properties could be inherited by the children as properties.
-    ** The second row takes an icon, a header, a Navlink menu and the menu for more links. This is called the child component
-    ** The third row takes  an icon, a header and a Navlink menu. This is called the grand child component.
-    ** The fourth row takes  an icon, a header and a Navlink menu. This is called the great grand child component.
-    ** Each of these components requires the sibling and renders an output once the requeired data are available.
-    ** The procedure for creating the components are similar except that in the Parent.JSX, the initial state was declared while in the children the props were defined to enable them inherit from their ancestors. 
-    ** 
+    * The first row takes the logo and it is the Parent component. Its text properties could be inherited by the children as properties.
+    * The second row takes an icon, a header, a Navlink menu and the menu for more links. This is called the child component
+    * The third row takes  an icon, a header and a Navlink menu. This is called the grand child component.
+    * The fourth row takes  an icon, a header and a Navlink menu. This is called the great grand child component.
+    * Each of these components requires the sibling and renders an output once the requeired data are available.
+    * The procedure for creating the components are similar except that in the Parent.JSX, the initial state was declared while in the children the props were defined to enable them inherit from their ancestors. 
+     
+
+  A mockup of the rendered html is shown [here](https://github.com/druchefavour/HTML_CSS_JS_Code_Challenge/blob/master/React/public/assets/images/react.PNG)
